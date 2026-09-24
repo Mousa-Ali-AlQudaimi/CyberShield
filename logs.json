@@ -1,0 +1,32 @@
+[
+    {
+        "log_id": "log2",
+        "timestamp": "2026-09-22 02:30:20",
+        "source_ip": "10.0.0.11",
+        "destination_ip": "10.0.0.21",
+        "action": "failed login",
+        "username": "Mousa",
+        "message": "multiple failed login attempts detected",
+        "severity": "medium"
+    },
+    {
+        "log_id": "log3",
+        "timestamp": "2026-09-10 11:30:00",
+        "source_ip": "10.0.0.50",
+        "destination_ip": "10.0.0.55",
+        "action": "union select",
+        "username": "musa",
+        "message": "union select detected in SQL query",
+        "severity": "high"
+    },
+    {
+        "log_id": "log4",
+        "timestamp": "2026-09-20 01:20:00",
+        "source_ip": "192.168.1.10",
+        "destination_ip": "10.0.0.55",
+        "action": "port scan",
+        "username": "musa",
+        "message": "port scan open",
+        "severity": "critical"
+    }
+]

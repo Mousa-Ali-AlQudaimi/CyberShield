@@ -1,0 +1,38 @@
+[
+    {
+        "incident_id": "I1",
+        "title": "SQL Injection Attack",
+        "description": "Suspicious SQL injection activity detectd",
+        "attack_type": "SQL Injection",
+        "source_ip": "10.0.0.5",
+        "risk_score": 25,
+        "status": "investigating",
+        "created_at": "2026-09-16T15:02:57",
+        "assigned_to": "musa",
+        "closed_at": null
+    },
+    {
+        "incident_id": "inc001",
+        "title": "Brute force Attack Detected",
+        "description": "Multiple failed login attampts detected from suspictou IP",
+        "attack_type": "brute force",
+        "source_ip": "10.0.0.11",
+        "risk_score": 25,
+        "status": "open",
+        "created_at": "2026-09-19T13:10:02",
+        "assigned_to": null,
+        "closed_at": null
+    },
+    {
+        "incident_id": "inc002",
+        "title": "port scan attack Detected",
+        "description": "multiple failed login attempts detected from port scan",
+        "attack_type": "port scan",
+        "source_ip": "192.168.1.10",
+        "risk_score": 50,
+        "status": "open",
+        "created_at": "2026-09-19T15:08:41",
+        "assigned_to": "musa",
+        "closed_at": null
+    }
+]

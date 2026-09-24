@@ -1,0 +1,38 @@
+[
+    {
+        "alert_id": "AL001",
+        "alert_type": "Brute Force",
+        "message": "Detected: Brute Force",
+        "severity": "high",
+        "timestamp": "2026-09-16T14:33:15",
+        "status": "closed",
+        "source_ip": "192.168.1.10"
+    },
+    {
+        "alert_id": "AL002",
+        "alert_type": "Brute Force",
+        "message": "Detected: Brute Force",
+        "severity": "high",
+        "timestamp": "2026-09-19T12:46:18",
+        "status": "new",
+        "source_ip": "10.0.0.11"
+    },
+    {
+        "alert_id": "AL003",
+        "alert_type": "SQL Injection",
+        "message": "Detected: SQL Injection",
+        "severity": "low",
+        "timestamp": "2026-09-19T13:41:18",
+        "status": "new",
+        "source_ip": "10.0.0.50"
+    },
+    {
+        "alert_id": "AL004",
+        "alert_type": "Port Scan",
+        "message": "Detected: Port Scan",
+        "severity": "medium",
+        "timestamp": "2026-09-19T15:01:27",
+        "status": "new",
+        "source_ip": "192.168.1.10"
+    }
+]
